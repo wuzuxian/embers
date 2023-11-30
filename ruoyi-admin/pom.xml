@@ -66,10 +66,10 @@
         </dependency>
 
         <!--  demo模块  -->
-        <dependency>
-            <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-demo</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.dromara</groupId>-->
+<!--            <artifactId>ruoyi-demo</artifactId>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>de.codecentric</groupId>
@@ -98,7 +98,14 @@
 <!--            <artifactId>apm-toolkit-trace</artifactId>-->
 <!--            <version>${与你的agent探针版本保持一致}</version>-->
 <!--        </dependency>-->
-
+        <dependency>
+            <groupId>org.dromara</groupId>
+            <artifactId>ruoyi-common-mail</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.dromara</groupId>
+            <artifactId>embers-admin</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

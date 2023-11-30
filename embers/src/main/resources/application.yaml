@@ -1,0 +1,19 @@
+server:
+  port: 9600
+
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: "g1"
+    send-message-timeout: 300000
+  consumer:
+    group: "nginx"
+    topic: "g1"
+
+embers:
+  type: "gateway"
+  maxConnectionNumber: 65535
+  secretKey: "wuzuxian"
+
+
+

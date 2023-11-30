@@ -249,3 +249,17 @@ justauth:
       client-id: 10**********6
       client-secret: 1f7d08**********5b7**********29e
       redirect-uri: ${justauth.address}/social-callback?source=gitlab
+
+#rocketmq
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: "admin"
+    send-message-timeout: 300000
+  consumer:
+    group: "admin"
+    topic: "admin"
+
+embers:
+  type: "admin"
+  secretKey: "wzxwwaeaseqwqwq"

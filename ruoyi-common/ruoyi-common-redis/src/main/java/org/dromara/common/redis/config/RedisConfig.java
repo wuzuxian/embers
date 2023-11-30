@@ -61,6 +61,8 @@ public class RedisConfig {
                     .setIdleConnectionTimeout(singleServerConfig.getIdleConnectionTimeout())
                     .setSubscriptionConnectionPoolSize(singleServerConfig.getSubscriptionConnectionPoolSize())
                     .setConnectionMinimumIdleSize(singleServerConfig.getConnectionMinimumIdleSize())
+                    .setSubscriptionTimeout(singleServerConfig.getTimeout())
+                    .setSubscriptionsPerConnection(5)
                     .setConnectionPoolSize(singleServerConfig.getConnectionPoolSize());
             }
             // 集群配置方式 参考下方注释
