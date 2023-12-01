@@ -1,8 +1,9 @@
 package wzx.domain;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
-public class MQMessage {
+public class MQMessage implements Serializable {
 
     private Integer id;
     private String fromTopic;
